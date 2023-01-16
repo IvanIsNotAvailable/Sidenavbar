@@ -38,7 +38,7 @@ body {
     width: 300px;
     height: 100%;
 }
-
+/* style for the logo design */
 .sidenav .sidenav-brand {
     color: var(--sidebar-brand-color);
     font-size: var(--sidebar-brand-size);
@@ -96,6 +96,7 @@ body {
     padding: 10px 20px;
 }
 
+/* Making the upper curve active navbar item style */
 .sidenav .sidenav-list ul li.active b:nth-child(1) {
     display: block;
     position: absolute;
@@ -104,7 +105,7 @@ body {
     height: 20px;
     top: -20px;
 }
-
+/* Making the bottom curve active navbar item style */
 .sidenav .sidenav-list ul li.active b:nth-child(2) {
     display: block;
     position: absolute;
@@ -113,7 +114,7 @@ body {
     height: 20px;
     bottom: -20px;
 }
-
+/* Making the upper curve to show when the link is active navbar item style */
 .sidenav .sidenav-list ul li.active b:nth-child(1)::before {
     display: block;
     content: '';
@@ -125,7 +126,7 @@ body {
     background-color: var(--sidebar-bg);
     border-bottom-right-radius: var(--border-radius);
 }
-
+/* Making the bottom curve to show when the link is active navbar item style */
 .sidenav .sidenav-list ul li.active b:nth-child(2)::before {
     display: block;
     content: '';
@@ -138,7 +139,7 @@ body {
     border-top-right-radius: var(--border-radius);
 }
 
-
+/* decorating the sidebar url styles*/
 .sidenav .sidenav-list ul li a {
     position: relative;
     display: flex;
@@ -150,6 +151,7 @@ body {
     font-size: var(--sidebar-font-size);
 }
 
+/* adding the style when the navbar is active */
 .sidenav .sidenav-list ul li.active {
     background-color: var(--background-color);
     border-top-left-radius: var(--border-radius);
@@ -163,7 +165,7 @@ body {
 .sidenav .sidenav-list ul li .title {
     text-transform: capitalize;
 }
-
+/* Custom decoration the look to see change in screen size */
 @media (max-width:576px) {
     .sidenav {
         width: 100px;
